@@ -90,7 +90,7 @@ def division ():
     stack.put(tempCount)                       # push temp variable
     tempCount = chr(ord(tempCount)+1)
     
-expression = 'ABC*+DE-/'
+expression = 'ABC*+DE-/, A+B/*C*+, AB+CD-*E+, ABCD+-*, AB+C*D/'
 
 for i in expression:
     if 'a' <= i <='z' or 'A' <= i <= 'Z':       # if it is an alphabet, push
